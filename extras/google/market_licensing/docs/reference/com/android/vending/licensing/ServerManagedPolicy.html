@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="../../../../../favicon.ico" />
+<title>ServerManagedPolicy | License Verification Library</title>
+<link href="../../../../../assets/android-developer-docs.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/android-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../../");
+</script>
+<script src="../../../../../assets/android-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../navtree_data.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="">
+
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links">
+                Packages:
+              </div>
+              <ul>
+              	
+    <li class="selected api apilevel-">
+  <a href="../../../../../reference/com/android/vending/licensing/package-summary.html">com.android.vending.licensing</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+
+              
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/DeviceLimiter.html">DeviceLimiter</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicenseResultListener.html">ILicenseResultListener</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicensingService.html">ILicensingService</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/LicenseCheckerCallback.html">LicenseCheckerCallback</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/Obfuscator.html">Obfuscator</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/Policy.html">Policy</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/AESObfuscator.html">AESObfuscator</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicenseResultListener.Stub.html">ILicenseResultListener.Stub</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicensingService.Stub.html">ILicensingService.Stub</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/LicenseChecker.html">LicenseChecker</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/NullDeviceLimiter.html">NullDeviceLimiter</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/PreferenceObfuscator.html">PreferenceObfuscator</a></li>
+          <li class="selected api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html">ServerManagedPolicy</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/StrictPolicy.html">StrictPolicy</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/LicenseCheckerCallback.ApplicationErrorCode.html">LicenseCheckerCallback.ApplicationErrorCode</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/Policy.LicenseResponse.html">Policy.LicenseResponse</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Exceptions</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ValidationException.html">ValidationException</a></li>
+      </ul>
+    </li>
+              
+              
+
+  <li><h2>See Also</h2>
+    <ul>
+          <li class="api"><a href="http://dirkbd.mtv:9090/guide/publishing/licensing.html">Licensing Your Applications</a></li>
+          <li class="api"><a href="http://market.android.com/publish">Android Market Publisher Site</a></li>
+    </ul>
+    </li>
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            Package:</nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        //$("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+Summary:
+
+
+
+
+
+
+
+
+
+  <a href="#pubctors">Ctors</a>
+  
+
+
+
+  &#124; <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+<div style="">License Verification Library&nbsp;r1</div><div style="xmargin-right:2em;float:right"><img src="../../../../../assets-extlib/android_wrench.png" height="24" />
+<img src="../../../../../assets-extlib/ic_launcher_androidmarket.png" height="24" /></div>
+
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    class
+<h1>ServerManagedPolicy</h1>
+
+
+
+  
+    extends Object<br/>
+  
+  
+  
+
+  
+  
+      implements 
+      
+        <a href="../../../../../reference/com/android/vending/licensing/Policy.html">Policy</a> 
+      
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell">java.lang.Object</td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.android.vending.licensing.ServerManagedPolicy</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>Default policy. All policy decisions are based off of response data received
+ from the licensing service. Specifically, the licensing server sends the
+ following information: response validity period, error retry period, and
+ error retry count.
+ <p>
+ These values will vary based on the the way the application is configured in
+ the Android Market publishing console, such as whether the application is
+ marked as free or is within its refund period, as well as how often an
+ application is checking with the licensing service.
+ <p>
+ Developers who need more fine grained control over their application's
+ licensing policy should implement a custom Policy.
+</p>
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<table id="pubctors" class="jd-sumtable"><tr><th colspan="12">Public Constructors</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            </nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html#ServerManagedPolicy(Context, com.android.vending.licensing.Obfuscator)">ServerManagedPolicy</a></span>(Context context, <a href="../../../../../reference/com/android/vending/licensing/Obfuscator.html">Obfuscator</a> obfuscator)</nobr>
+        
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html#allowAccess()">allowAccess</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">Check if the user should be allowed access to the application.
+
+ This implementation allows access if either:<br>
+ <ol>
+ <li>a LICENSED response was received within the validity period
+ <li>a RETRY response was received in the last minute, and we are under
+ the RETRY count or in the RETRY period.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            long</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html#getMaxRetries()">getMaxRetries</a></span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            long</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html#getRetryCount()">getRetryCount</a></span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            long</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html#getRetryUntil()">getRetryUntil</a></span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            long</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html#getValidityTimestamp()">getValidityTimestamp</a></span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html#processServerResponse(com.android.vending.licensing.Policy.LicenseResponse, com.android.vending.licensing.ResponseData)">processServerResponse</a></span>(<a href="../../../../../reference/com/android/vending/licensing/Policy.LicenseResponse.html">Policy.LicenseResponse</a> response, ResponseData rawData)</nobr>
+        
+        <div class="jd-descrdiv">Process a new response from the license server.</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class java.lang.Object
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(Object arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            Class&lt;?&nbsp;extends&nbsp;Object&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            String</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-com.android.vending.licensing.Policy" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-com.android.vending.licensing.Policy-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From interface <a href="../../../../../reference/com/android/vending/licensing/Policy.html">com.android.vending.licensing.Policy</a>
+<div id="inherited-methods-com.android.vending.licensing.Policy">
+  <div id="inherited-methods-com.android.vending.licensing.Policy-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-com.android.vending.licensing.Policy-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/Policy.html#allowAccess()">allowAccess</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">Check if the user should be allowed access to the application.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/Policy.html#processServerResponse(com.android.vending.licensing.Policy.LicenseResponse, com.android.vending.licensing.ResponseData)">processServerResponse</a></span>(<a href="../../../../../reference/com/android/vending/licensing/Policy.LicenseResponse.html">Policy.LicenseResponse</a> response, ResponseData rawData)</nobr>
+        
+        <div class="jd-descrdiv">Provide results from contact with the license server.</div>
+  
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<h2>Public Constructors</h2>
+
+
+
+<A NAME="ServerManagedPolicy(Context, com.android.vending.licensing.Obfuscator)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        
+      </span>
+      <span class="sympad">ServerManagedPolicy</span>
+      <span class="normal">(Context context, <a href="../../../../../reference/com/android/vending/licensing/Obfuscator.html">Obfuscator</a> obfuscator)</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>context</td>
+          <td>The context for the current application</td>
+        </tr>
+        <tr>
+          <th>obfuscator</td>
+          <td>An obfuscator to be used with preferences.
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<A NAME="allowAccess()"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">allowAccess</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Check if the user should be allowed access to the application.
+
+
+ This implementation allows access if either:<br>
+ <ol>
+ <li>a LICENSED response was received within the validity period
+ <li>a RETRY response was received in the last minute, and we are under
+ the RETRY count or in the RETRY period.
+ </ol>
+</p></div>
+
+    </div>
+</div>
+
+
+<A NAME="getMaxRetries()"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        long
+      </span>
+      <span class="sympad">getMaxRetries</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<A NAME="getRetryCount()"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        long
+      </span>
+      <span class="sympad">getRetryCount</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<A NAME="getRetryUntil()"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        long
+      </span>
+      <span class="sympad">getRetryUntil</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<A NAME="getValidityTimestamp()"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        long
+      </span>
+      <span class="sympad">getValidityTimestamp</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<A NAME="processServerResponse(com.android.vending.licensing.Policy.LicenseResponse, com.android.vending.licensing.ResponseData)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">processServerResponse</span>
+      <span class="normal">(<a href="../../../../../reference/com/android/vending/licensing/Policy.LicenseResponse.html">Policy.LicenseResponse</a> response, ResponseData rawData)</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Process a new response from the license server.
+ <p>
+ This data will be used for computing future policy decisions. The
+ following parameters are processed:
+ <ul>
+ <li>VT: the timestamp that the client should consider the response
+   valid until
+ <li>GT: the timestamp that the client should ignore retry errors until
+ <li>GR: the number of retry errors that the client should ignore
+ </ul></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>response</td>
+          <td>the result from validating the server response</td>
+        </tr>
+        <tr>
+          <th>rawData</td>
+          <td>the raw server response data
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+
+
+  <div id="copyright">
+    
+  Except as noted, this content is licensed under <a
+  href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a>.
+  </div>
+  <div id="build_info">
+    
+  License Verification Library&nbsp;r1 - 22 Jul 2010 14:47
+
+  </div>
+
+  <div id="footerlinks">
+    
+  </div>
+
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize android-developer-docs.js */
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5831155-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

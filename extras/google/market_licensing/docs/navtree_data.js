@@ -1,0 +1,10 @@
+var NAVTREE_DATA =
+[ [ "com.android.vending.licensing", "reference/com/android/vending/licensing/package-summary.html", [ [ "Description", "reference/com/android/vending/licensing/package-descr.html", null, null ], [ "Interfaces", null, [ [ "DeviceLimiter", "reference/com/android/vending/licensing/DeviceLimiter.html", null, null ], [ "ILicenseResultListener", "reference/com/android/vending/licensing/ILicenseResultListener.html", null, null ], [ "ILicensingService", "reference/com/android/vending/licensing/ILicensingService.html", null, null ], [ "LicenseCheckerCallback", "reference/com/android/vending/licensing/LicenseCheckerCallback.html", null, null ], [ "Obfuscator", "reference/com/android/vending/licensing/Obfuscator.html", null, null ], [ "Policy", "reference/com/android/vending/licensing/Policy.html", null, null ] ]
+, null ], [ "Classes", null, [ [ "AESObfuscator", "reference/com/android/vending/licensing/AESObfuscator.html", null, null ], [ "ILicenseResultListener.Stub", "reference/com/android/vending/licensing/ILicenseResultListener.Stub.html", null, null ], [ "ILicensingService.Stub", "reference/com/android/vending/licensing/ILicensingService.Stub.html", null, null ], [ "LicenseChecker", "reference/com/android/vending/licensing/LicenseChecker.html", null, null ], [ "NullDeviceLimiter", "reference/com/android/vending/licensing/NullDeviceLimiter.html", null, null ], [ "PreferenceObfuscator", "reference/com/android/vending/licensing/PreferenceObfuscator.html", null, null ], [ "ServerManagedPolicy", "reference/com/android/vending/licensing/ServerManagedPolicy.html", null, null ], [ "StrictPolicy", "reference/com/android/vending/licensing/StrictPolicy.html", null, null ] ]
+, null ], [ "Enums", null, [ [ "LicenseCheckerCallback.ApplicationErrorCode", "reference/com/android/vending/licensing/LicenseCheckerCallback.ApplicationErrorCode.html", null, null ], [ "Policy.LicenseResponse", "reference/com/android/vending/licensing/Policy.LicenseResponse.html", null, null ] ]
+, null ], [ "Exceptions", null, [ [ "ValidationException", "reference/com/android/vending/licensing/ValidationException.html", null, null ] ]
+, null ] ]
+, null ] ]
+
+;
+

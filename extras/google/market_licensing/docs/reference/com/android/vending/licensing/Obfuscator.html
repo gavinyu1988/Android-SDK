@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="../../../../../favicon.ico" />
+<title>Obfuscator | License Verification Library</title>
+<link href="../../../../../assets/android-developer-docs.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/android-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../../");
+</script>
+<script src="../../../../../assets/android-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../navtree_data.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="">
+
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links">
+                Packages:
+              </div>
+              <ul>
+              	
+    <li class="selected api apilevel-">
+  <a href="../../../../../reference/com/android/vending/licensing/package-summary.html">com.android.vending.licensing</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+
+              
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/DeviceLimiter.html">DeviceLimiter</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicenseResultListener.html">ILicenseResultListener</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicensingService.html">ILicensingService</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/LicenseCheckerCallback.html">LicenseCheckerCallback</a></li>
+          <li class="selected api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/Obfuscator.html">Obfuscator</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/Policy.html">Policy</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/AESObfuscator.html">AESObfuscator</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicenseResultListener.Stub.html">ILicenseResultListener.Stub</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ILicensingService.Stub.html">ILicensingService.Stub</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/LicenseChecker.html">LicenseChecker</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/NullDeviceLimiter.html">NullDeviceLimiter</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/PreferenceObfuscator.html">PreferenceObfuscator</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ServerManagedPolicy.html">ServerManagedPolicy</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/StrictPolicy.html">StrictPolicy</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/LicenseCheckerCallback.ApplicationErrorCode.html">LicenseCheckerCallback.ApplicationErrorCode</a></li>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/Policy.LicenseResponse.html">Policy.LicenseResponse</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Exceptions</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../reference/com/android/vending/licensing/ValidationException.html">ValidationException</a></li>
+      </ul>
+    </li>
+              
+              
+
+  <li><h2>See Also</h2>
+    <ul>
+          <li class="api"><a href="http://dirkbd.mtv:9090/guide/publishing/licensing.html">Licensing Your Applications</a></li>
+          <li class="api"><a href="http://market.android.com/publish">Android Market Publisher Site</a></li>
+    </ul>
+    </li>
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            Package:</nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        //$("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+
+<div class="sum-details-links">
+Summary:
+
+
+
+
+
+
+
+
+
+
+
+  <a href="#pubmethods">Methods</a>
+  
+
+
+
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+<div style="">License Verification Library&nbsp;r1</div><div style="xmargin-right:2em;float:right"><img src="../../../../../assets-extlib/android_wrench.png" height="24" />
+<img src="../../../../../assets-extlib/ic_launcher_androidmarket.png" height="24" /></div>
+
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    interface
+<h1>Obfuscator</h1>
+
+
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.android.vending.licensing.Obfuscator</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+<table class="jd-sumtable jd-sumtable-subclasses"><tr><td colspan="12" style="border:none;margin:0;padding:0;">
+
+  <a href="#" onclick="return toggleInherited(this, null)" id="subclasses-indirect" class="jd-expando-trigger closed"
+          ><img id="subclasses-indirect-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>Known Indirect Subclasses
+
+  <div id="subclasses-indirect">
+      <div id="subclasses-indirect-list"
+              class="jd-inheritedlinks"
+              
+              >
+              <a href="../../../../../reference/com/android/vending/licensing/AESObfuscator.html">AESObfuscator</a>
+      </div>
+      <div id="subclasses-indirect-summary"
+              style="display: none;"
+              >
+  <table class="jd-sumtable-expando">
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../../reference/com/android/vending/licensing/AESObfuscator.html">AESObfuscator</a></td>
+              <td class="jd-descrcol" width="100%">An Obfuscator that uses AES to encrypt data.&nbsp;</td>
+          </tr>
+  </table>
+      </div>
+  </div>
+</td></tr></table>
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>Interface used as part of a <code><a href="../../../../../reference/com/android/vending/licensing/Policy.html">Policy</a></code> to allow application authors to obfuscate
+ licensing data that will be stored into a SharedPreferences file.
+ <p>
+ Any transformation scheme must be reversable. Implementing classes may optionally implement an
+ integrity check to further prevent modification to preference data. Implementing classes
+ should use device-specific information as a key in the obfuscation algorithm to prevent
+ obfuscated preferences from being shared among devices.
+</p>
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            String</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/Obfuscator.html#obfuscate(java.lang.String)">obfuscate</a></span>(String original)</nobr>
+        
+        <div class="jd-descrdiv">Obfuscate a string that is being stored into shared preferences.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            String</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../../reference/com/android/vending/licensing/Obfuscator.html#unobfuscate(java.lang.String)">unobfuscate</a></span>(String obfuscated)</nobr>
+        
+        <div class="jd-descrdiv">Undo the transformation applied to data by the obfuscate() method.</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<A NAME="obfuscate(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        abstract 
+         
+        String
+      </span>
+      <span class="sympad">obfuscate</span>
+      <span class="normal">(String original)</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Obfuscate a string that is being stored into shared preferences.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>original</td>
+          <td>The data that is to be obfuscated.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>A tranformed version of the original data.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<A NAME="unobfuscate(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        abstract 
+         
+        String
+      </span>
+      <span class="sympad">unobfuscate</span>
+      <span class="normal">(String obfuscated)</span>
+    </h4>
+      <div class="api-level">
+        
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Undo the transformation applied to data by the obfuscate() method.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>A tranformed version of the original data.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="../../../../../reference/com/android/vending/licensing/ValidationException.html">ValidationException</a></td>
+            <td>Optionally thrown if a data integrity check fails.
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+
+
+  <div id="copyright">
+    
+  Except as noted, this content is licensed under <a
+  href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a>.
+  </div>
+  <div id="build_info">
+    
+  License Verification Library&nbsp;r1 - 22 Jul 2010 14:47
+
+  </div>
+
+  <div id="footerlinks">
+    
+  </div>
+
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize android-developer-docs.js */
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5831155-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
